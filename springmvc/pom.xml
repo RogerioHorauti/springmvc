@@ -16,10 +16,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <jstl-version>1.2</jstl-version>
    	<servlet-api-version>3.1.0</servlet-api-version>
    	<hibernate.version>4.3.8.Final</hibernate.version>
-    <mysql.version>6.0.5</mysql.version>
+    <mysql.version>5.1.38</mysql.version>
   </properties>
   
-  <dependencies>  
+  <dependencies>
+    
 	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-core</artifactId>
